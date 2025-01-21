@@ -1,0 +1,76 @@
+
+body{
+            font-family: Arial , sans-serif;
+            margin: 0;
+            padding: 0;
+             background-color: moccasin;
+        }
+        nav{
+            background-color: cornflowerblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;}
+
+        nav ul{
+            display: flex;
+            list-style-type: none;
+        }
+        nav ul li{
+            margin: 0 30px;}
+        nav ul li a{
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bold;
+            color: black;
+        padding: 10px 20px
+        }
+        nav ul li a:hover{
+            background-color: azure;
+            color: royalblue;
+            border-radius: 50px;
+        }
+        p{
+            color: black;
+            font-family: Arial , sans-serif;
+            color-scheme: dark;
+        }
+ /*div{*/
+ /*           background-color:lightblue;*/
+ /*       height:100px*/
+ /*       }*/
+        .one{
+            background-color: saddlebrown;
+            height: 200px;
+        }
+        .two{
+            background-color: peru;
+            height:300px;
+            color: midnightblue;
+        }
+        .three{
+            background-color: thistle;
+            height:130px;
+            color: midnightblue;
+        }
+        #four{
+            background-color: thistle;
+            height:130px;
+            color:peru;
+        }
+        #five{
+           background-color: thistle;
+            height:130px;
+            color: orangered;}
+        .background-image{
+            background-image: url("https://cdn.pixabay.com/photo/2015/09/03/17/49/hospital-921034_960_720.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 570px;
+            border-radius: 20px;
+            margin: 20px;
+        }
+        .image-one img{height: 50vh;width: 350px;margin: 20px;}
